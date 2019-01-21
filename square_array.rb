@@ -1,4 +1,5 @@
 def square_array(array)
  
- for i in array 
+ array.each {|x| x^2}
+ 
 end
