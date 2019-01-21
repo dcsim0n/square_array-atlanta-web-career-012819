@@ -1,7 +1,6 @@
 def square_array(array)
- 
+squars = []
 for i in array
-  i**2 
-  array
- 
+  squars << i**2
+squars
 end
